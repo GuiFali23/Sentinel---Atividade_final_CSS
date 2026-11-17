@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTINEL | Central de Monitoramento</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="bi bi-shield-lock"></i> SENTINEL
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="solucoes.html">Soluções</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="central.html">Central</a></li>
+                    <li class="nav-item"><a class="nav-link" href="inteligencia.html">Inteligência</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="carreiras.html">Carreiras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- CABEÇALHO -->
+    <header class="bg-dark text-white py-5">
+        <div class="container">
+
+            <span class="badge bg-danger mb-3">PAINEL DEMONSTRATIVO</span>
+
+            <h1 class="display-5 fw-bold">
+                Central de monitoramento
+            </h1>
+
+            <p class="lead">
+                Acompanhamento de indicadores, eventos e informações
+                relacionadas à segurança digital.
+            </p>
+
+        </div>
+    </header>
+
+    <!-- STATUS GERAL -->
+    <section class="container py-4">
+
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <h3 class="fw-bold mb-0">Visão geral do sistema</h3>
+            <span class="badge bg-success fs-6">
+                <i class="bi bi-circle-fill"></i> Sistemas operacionais
+            </span>
+        </div>
+
+        <div class="row g-3">
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <i class="bi bi-shield-check fs-2 text-success"></i>
+                        <h6 class="text-muted mt-3">Proteção geral</h6>
+                        <h2 class="fw-bold">98%</h2>
+                        <p class="text-success mb-0">Índice demonstrativo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <i class="bi bi-exclamation-triangle fs-2 text-warning"></i>
+                        <h6 class="text-muted mt-3">Alertas identificados</h6>
+                        <h2 class="fw-bold">24</h2>
+                        <p class="text-warning mb-0">Registros fictícios</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <i class="bi bi-shield-x fs-2 text-danger"></i>
+                        <h6 class="text-muted mt-3">Ameaças detectadas</h6>
+                        <h2 class="fw-bold">08</h2>
+                        <p class="text-danger mb-0">Eventos simulados</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <i class="bi bi-hdd-network fs-2 text-primary"></i>
+                        <h6 class="text-muted mt-3">Servidores ativos</h6>
+                        <h2 class="fw-bold">12/12</h2>
+                        <p class="text-success mb-0">Disponibilidade simulada</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DISPONIBILIDADE -->
+    <section class="container py-4">
+
+        <h3 class="fw-bold mb-4">Disponibilidade dos serviços</h3>
+
+        <div class="card shadow-sm">
+            <div class="card-body">
+
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between">
+                        <span>Firewall corporativo</span>
+                        <span class="text-success fw-bold">98%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 98%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between">
+                        <span>Monitoramento de rede</span>
+                        <span class="text-success fw-bold">95%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 95%"></div>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <div class="d-flex justify-content-between">
+                        <span>Proteção de dados</span>
+                        <span class="text-success fw-bold">99%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 99%"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex justify-content-between">
+                        <span>Serviços de autenticação</span>
+                        <span class="text-warning fw-bold">85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" style="width: 85%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTOS DE SEGURANÇA -->
+    <section class="container py-4">
+
+        <h3 class="fw-bold mb-4">Eventos de segurança</h3>
+
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover align-middle">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Identificação</th>
+                        <th>Evento</th>
+                        <th>Origem</th>
+                        <th>Horário</th>
+                        <th>Prioridade</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>#EVT-001</td>
+                        <td>Tentativa de acesso suspeita</td>
+                        <td>Rede externa</td>
+                        <td>09:42</td>
+                        <td><span class="badge bg-danger">Alta</span></td>
+                        <td><span class="badge bg-success">Bloqueado</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>#EVT-002</td>
+                        <td>Atividade incomum detectada</td>
+                        <td>Servidor interno</td>
+                        <td>09:35</td>
+                        <td><span class="badge bg-warning text-dark">Média</span></td>
+                        <td><span class="badge bg-warning text-dark">Em análise</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>#EVT-003</td>
+                        <td>Atualização de segurança</td>
+                        <td>Infraestrutura</td>
+                        <td>09:20</td>
+                        <td><span class="badge bg-info text-dark">Baixa</span></td>
+                        <td><span class="badge bg-success">Concluído</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>#EVT-004</td>
+                        <td>Identificação de vulnerabilidade</td>
+                        <td>Aplicação web</td>
+                        <td>08:55</td>
+                        <td><span class="badge bg-danger">Alta</span></td>
+                        <td><span class="badge bg-warning text-dark">Em análise</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>#EVT-005</td>
+                        <td>Falha de autenticação</td>
+                        <td>Servidor de acesso</td>
+                        <td>08:30</td>
+                        <td><span class="badge bg-warning text-dark">Média</span></td>
+                        <td><span class="badge bg-success">Resolvido</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+        </div>
+    </section>
+
+    <!-- MAPA DE AMEAÇAS -->
+    <section class="bg-light py-5">
+        <div class="container">
+
+            <h3 class="fw-bold mb-3">Mapa de ameaças</h3>
+
+            <p>
+                Representação ilustrativa de possíveis origens
+                de ameaças identificadas no ambiente digital.
+            </p>
+
+            <div class="card shadow-sm">
+                <div class="card-body text-center py-5">
+
+                    <i class="bi bi-globe-americas display-1 text-danger"></i>
+
+                    <h4 class="mt-3">Monitoramento global</h4>
+
+                    <p class="text-muted">
+                        Área reservada para visualização geográfica
+                        de eventos e ameaças cibernéticas.
+                    </p>
+
+                    <span class="badge bg-dark">Visualização ilustrativa</span>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- AVISO -->
+    <section class="container py-4">
+        <div class="alert alert-info">
+            <i class="bi bi-info-circle"></i>
+            <strong>Nota:</strong> Esta central é uma demonstração
+            acadêmica com informações fictícias. Não representa
+            monitoramento de redes ou ameaças em tempo real.
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <h5 class="fw-bold">SENTINEL</h5>
+            <p>Segurança digital. Inteligência. Proteção.</p>
+            <p class="mb-0">&copy; 2026 SENTINEL. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
